@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "Component/Sidebar.tsx", "pages/login.tsx", "pages/api/auth/[...nextauth].js", "lib/losslefy.js", "pages/_app.js", "Components/center.js", "Components/Sidebar.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "Component/Sidebar.tsx", "pages/login.tsx", "pages/api/auth/[...nextauth].js", "lib/losslefy.js", "pages/_app.js", "Components/center.js", "Components/Sidebar.js", "pages/index.js"],
   "exclude": ["node_modules"]
 }
