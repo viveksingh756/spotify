@@ -14,6 +14,6 @@ return NextResponse.next();
 // Redirect to login if no token
 
 if(!token && pathname !== '/login'){
-    return NextResponse.redirect('http://localhost:3000/login');
+    return NextResponse.redirect('/login');
 }
 }
