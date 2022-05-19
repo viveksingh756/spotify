@@ -14,6 +14,6 @@ return NextResponse.next();
 // Redirect to login if no token
 
 if(!token && pathname !== '/login'){
-    return NextResponse.redirect('/login');
+    return NextResponse.redirect('https://spotify-40bc21bl5-viveksingh756.vercel.app/login');
 }
 }
